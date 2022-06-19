@@ -19,6 +19,10 @@ hr {
     position: relative;
 }
 
+#content > hr {
+    width: 400px;
+}
+
 #howto {
     position: absolute;
     background: rgb(29, 28, 28);
