@@ -8,17 +8,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="title" class="white">Wordle</h1>
+    <div id="content">
+            <h1 id="title" class="white">Wordle</h1>
         <hr>
         <br>
         <div data-guess-tile id="board">
         </div>
-
         <br>
         <h1 id="answer"></h1>    
         <div id="keyboard"></div>
         </div>
+        <div id="howto">
+            <p>HOW TO PLAY</p>
+            <p>Guess the WORDLE in six tries.
+
+                Each guess must be a valid five-letter word. Hit the enter button to submit.
+                
+                After each guess, the color of the tiles will change to show how close your guess was to the word.</p>
+                <hr>
+
+            <div id="Examples">
+            <p>Examples</p>    
+            <p>The letter W is in the word and in the correct spot.</p>
+                <img src="./assets/example1.png" alt="">
+                <hr>
+                <p>The letter I is in the word but in the wrong spot.</p>
+                <img src="./assets/example2.png" alt="">
+                <hr>
+                <p>The letter U is not in the word in any spot.</p>
+                <img src="./assets/example3.png" alt="">
+            </div>
+        </div>
         
+    </div>
+
 </body>
 <script src="word.js"></script>
 <script src="dictionary.js"></script>
