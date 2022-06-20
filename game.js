@@ -161,6 +161,7 @@ let checkRow = () => {
 
     if (guessChance == 0 && row == 6) {
       alert("you lose!");
+      document.getElementById('answer').innerText = wordGuess
     }
   }
 };
